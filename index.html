@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive food delivery service version1</title>
+    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sevillana&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+                            <!-- side bar -->
+<div class="sidebar">
+    
+     <!-- logo -->
+
+    <!-- <img class="logo" src="https://cdn5.vectorstock.com/i/1000x1000/93/79/black-food-icon-for-restaurant-vector-4789379.jpg" alt=""> -->
+    <h1 class="logo">Food time</h1>
+   
+    <!-- list of menu -->
+    <div class="sidebar-menu">
+      <a href="./index.html"><ion-icon name="storefront-outline"></ion-icon>Home </a>
+      <a href=""><ion-icon name="receipt-outline"></ion-icon>Bills </a>
+      <a href=" #"><ion-icon name="wallet-outline"></ion-icon>Wallet </a>
+      <a href="../cart/index.html"><ion-icon name="cart-outline"></ion-icon>Cart</a>
+      <a href=" #"><ion-icon name="chatbubbles-outline"></ion-icon>Contact us</a>
+      <a href="../help/"><ion-icon name="help-circle-outline"></ion-icon>Help</a>
+     
+   
+    </div>
+    <!-- logout -->
+
+       <div class="sidebar-logout">
+        <!-- <a href="../formpage/indexlog.html"><button class="sidebar-logout"><b>Logout</b></button>   -->
+        <a href="../formpage/indexlog.html"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+    </div></a> 
+
+</div>
+
+
+                            <!-- main -->
+<div class="main">
+    <!-- main navbar -->
+    <div class="main-navbar">
+        <!-- menu when appear on mobile -->
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+        <!-- search bar -->
+        <div class="search">
+            <input type="text" placeholder="What you want to eat?">
+            <button class="search-btn">search</button>
+        </div>
+        <!-- profile icone on left side of navbar -->
+        <div class="profile">
+            <a class="cart" href="../cart/index.html"><ion-icon name="cart-outline"></ion-icon></a>
+            <a class="user" href=" #"><ion-icon name="person-outline"></ion-icon></a>
+        </div>
+    </div>
+
+    <!-- main highlight -->
+   <div class="main-highlight">
+        <!-- title section and arrow-->
+        <div class="main-header">
+            <h2 class="main-title">Recommendations</h2>
+            <div class="main-arrow">
+                <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+            </div>
+        </div>
+        <!-- hightlight menu -->
+        <div class="highlight-wrapper">
+            <div class="highlight-card">
+                <img class="highlight-img" src="https://www.wallpaperflare.com/static/729/236/30/salad-vegetables-delicious-diet-wallpaper.jpg" alt="">
+                <div class="highlight-desc">
+                    <h4>Fresh Salad</h4>
+                    <p>₹300</p>
+                </div>
+                
+            </div>
+
+           <div class="highlight-card">
+             <img class="highlight-img" src="https://coffeeloverhut.com/wp-content/uploads/2020/12/pexels-kevin-menajang-982612-1.jpg" alt="">
+             <div class="highlight-desc ">
+                <h4>Cafe Latte</h4>
+                <p>₹380</p>
+             </div>
+           </div>
+
+           <div class="highlight-card">
+            <img class="highlight-img" src="https://th.bing.com/th/id/OIP.XL2Y_MEgKHi68hg2xYPayAHaHa?w=152&h=180&c=7&r=0&o=5&cb=10&pid=1.7" alt="">
+            <div class="highlight-desc ">
+               <h4>Premium Steat</h4> 
+            </div>
+          </div>
+
+           <div class="highlight-card">
+            <img class="highlight-img" src="https://th.bing.com/th/id/OIP.auCZfYAyBvocH6w9D14YqgHaF6?w=220&h=180&c=7&r=0&o=5&cb=10&pid=1.7" alt="">
+            <div class="highlight-desc ">
+               <h4>Big Burger</h4>
+               <p>₹85</p>
+            </div>
+          </div>
+        </div>
+  
+    </div>
+    
+                                         <!-- main menu/order -->
+    <div class="main-menus">
+        <!-- filter section -->
+        <div class="main-filter">
+            <div>
+                <h2 class="main-title">Menu <br>Category</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back-menu" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next-menu" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+           <div class="filter-wrapper">
+               <div class="filter-card">
+                <div class="filter-icon">
+                    <ion-icon name="restaurant-outline"></ion-icon>
+                </div>
+                <p>All Menus</p>
+               </div>
+              
+              
+               <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                     </div>
+                    <p>Burger</p>
+               </div>
+             
+             
+               <div class="filter-card">
+                <div class="filter-icon">
+                    <ion-icon name="pizza-outline"></ion-icon>
+                </div>
+                <p>Pizza</p>
+               </div>
+              
+              
+               <div class="filter-card">
+                <div class="filter-icon">
+                    <ion-icon name="wine-outline"></ion-icon>
+                </div>
+                <p>Wine</p>
+               </div>
+
+               <div class="filter-card">
+                <div class="filter-icon">
+                    <ion-icon name="ice-cream-outline"></ion-icon>
+                </div>
+                <p>Ice Cream</p>
+               </div>
+
+               <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="cafe-outline"></ion-icon>
+                    </div>
+                        <p>Coffee</p>
+               </div>
+            
+               <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="fish-outline"></ion-icon>
+                    </div>
+                         <p>Seafood</p>
+               </div>
+            
+               <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="nutrition-outline"></ion-icon>
+                    </div>
+                    <p>Healthy</p>
+             </div>
+
+               <div class="filter-card">
+                <div class="filter-icon">
+                    <ion-icon name="beer-outline"></ion-icon>
+                </div>
+                <p>Drinks</p>
+               </div>
+           </div>
+        </div>
+
+        <hr class="divider">
+        <!-- list of food menu -->
+        <div class="main-detail">
+            <h2 class="main-title">Choose Order</h2>
+            <div class="details-wrapper">
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/14c/8cc9971b10b83e7b07988f29ac35a14c.png" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Mix Veg Burger</h4>
+                            <p class="detail-sub">Experience the wholesome goodness of our Veg Burger.</p>
+                            <p class="price">₹180 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                 <div class="detail-card">
+                   <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/1/18412861/39acad726847259d6c14c664cf80c507.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                   <div class="detail-desc">
+                         <div class="detail-name">
+                            <h4>Pizza, Italian, Pasta</h4>
+                            <p class="detail-sub">Oven Story Pizza - Standout Toppings</p>
+                            <p class="price">₹150 for one</p>
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline">
+                     </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/155/8d019ea83391dce375a8ed8548d95155.jpg?output-format=webp" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Giani</h4>
+                            <p class="detail-sub">Ice Cream, Desserts, Shake, Beverages</p>
+                            <p class="price">₹350 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/8/300988/f5b9b82dd1aec36e29c1fed164987cad_o2_featured_v2.jpg" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>RollsKing</h4>
+                            <p class="detail-sub">Rolls, Fast Food, North Indian</p>
+                            <p class="price">
+                                ₹200 for one</p>
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/3/18618283/c917709553428929e7902af37d9b8a8b.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>The Belgian Waffle Co.</h4>
+                            <p class="detail-sub"> Waffle, Pancake, Ice Cream, Desserts, Beverages.</p>
+                            <p class="price">₹120 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/14c/8cc9971b10b83e7b07988f29ac35a14c.png" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Mix Veg Burger</h4>
+                            <p class="detail-sub">Experience the wholesome goodness of our Veg Burger.</p>
+                            <p class="price">₹180 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                 <div class="detail-card">
+                   <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/1/18412861/39acad726847259d6c14c664cf80c507.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                   <div class="detail-desc">
+                         <div class="detail-name">
+                            <h4>Pizza, Italian, Pasta</h4>
+                            <p class="detail-sub">Oven Story Pizza - Standout Toppings</p>
+                            <p class="price">₹150 for one</p>
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline">
+                     </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/155/8d019ea83391dce375a8ed8548d95155.jpg?output-format=webp" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Giani</h4>
+                            <p class="detail-sub">Ice Cream, Desserts, Shake, Beverages</p>
+                            <p class="price">₹350 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/14c/8cc9971b10b83e7b07988f29ac35a14c.png" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Mix Veg Burger</h4>
+                            <p class="detail-sub">Experience the wholesome goodness of our Veg Burger.</p>
+                            <p class="price">₹180 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                 <div class="detail-card">
+                   <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/1/18412861/39acad726847259d6c14c664cf80c507.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                   <div class="detail-desc">
+                         <div class="detail-name">
+                            <h4>Pizza, Italian, Pasta</h4>
+                            <p class="detail-sub">Oven Story Pizza - Standout Toppings</p>
+                            <p class="price">₹150 for one</p>
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline">
+                     </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/155/8d019ea83391dce375a8ed8548d95155.jpg?output-format=webp" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Giani</h4>
+                            <p class="detail-sub">Ice Cream, Desserts, Shake, Beverages</p>
+                            <p class="price">₹350 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/8/300988/f5b9b82dd1aec36e29c1fed164987cad_o2_featured_v2.jpg" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>RollsKing</h4>
+                            <p class="detail-sub">Rolls, Fast Food, North Indian</p>
+                            <p class="price">
+                                ₹200 for one</p>
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/3/18618283/c917709553428929e7902af37d9b8a8b.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>The Belgian Waffle Co.</h4>
+                            <p class="detail-sub"> Waffle, Pancake, Ice Cream, Desserts, Beverages.</p>
+                            <p class="price">₹120 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/14c/8cc9971b10b83e7b07988f29ac35a14c.png" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Mix Veg Burger</h4>
+                            <p class="detail-sub">Experience the wholesome goodness of our Veg Burger.</p>
+                            <p class="price">₹180 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+                 <div class="detail-card">
+                   <img class="detail-img" src="https://b.zmtcdn.com/data/pictures/chains/1/18412861/39acad726847259d6c14c664cf80c507.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+                   <div class="detail-desc">
+                         <div class="detail-name">
+                            <h4>Pizza, Italian, Pasta</h4>
+                            <p class="detail-sub">Oven Story Pizza - Standout Toppings</p>
+                            <p class="price">₹150 for one</p>
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline">
+                     </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://b.zmtcdn.com/data/dish_photos/155/8d019ea83391dce375a8ed8548d95155.jpg?output-format=webp" alt="not found"> 
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Giani</h4>
+                            <p class="detail-sub">Ice Cream, Desserts, Shake, Beverages</p>
+                            <p class="price">₹350 for one</p> 
+                        </div>
+                        <ion-icon class="detail-favrites" name="bookmark-outline"></ion-icon>
+                    </div>
+                   
+                </div>
+            </div>
+
+              
+              
+               
+            </div>
+        </div>
+            
+    </div>
+</div>
+<!-- <div id="bottom">
+    <pre class="ft"> FOOD TIME</pre>
+    <article id="index">
+         <ul>ABOUT US</ul>
+        <ul>SOCIAL MEDIA</ul>
+        <ul>FEEDBACK</ul>
+     </article>
+     <article id="index2">
+         <ul>HELP & SUPPPORT</ul>
+        <ul>MAIL US</ul>
+        <ul>SUBMIT FORM</ul>
+     </article>
+     <article id="index3">
+         <ul>TERM & CONDITION</ul>
+        <ul>COOKIES POLICY</ul>
+        <ul>PRIVACY POLICY</ul>
+     </article>
+     
+     </div> -->
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="./app.js"></script>
+</html>
